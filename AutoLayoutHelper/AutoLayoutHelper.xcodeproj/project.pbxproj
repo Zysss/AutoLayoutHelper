@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50FA3C851CBCAFAA00B28866 /* AutoLayoutHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FA3C841CBCAFAA00B28866 /* AutoLayoutHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50C6965C1CBF685B00AB7EBF /* AutoLayoutHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C6965B1CBF685B00AB7EBF /* AutoLayoutHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		50FA3C811CBCAFAA00B28866 /* AutoLayoutHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoLayoutHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50FA3C841CBCAFAA00B28866 /* AutoLayoutHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutHelper.h; sourceTree = "<group>"; };
-		50FA3C861CBCAFAA00B28866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C696581CBF685B00AB7EBF /* AutoLayoutHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoLayoutHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C6965B1CBF685B00AB7EBF /* AutoLayoutHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLayoutHelper.h; sourceTree = "<group>"; };
+		50C6965D1CBF685B00AB7EBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		50FA3C7D1CBCAFAA00B28866 /* Frameworks */ = {
+		50C696541CBF685B00AB7EBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -27,27 +27,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		50FA3C771CBCAFAA00B28866 = {
+		50C6964E1CBF685B00AB7EBF = {
 			isa = PBXGroup;
 			children = (
-				50FA3C831CBCAFAA00B28866 /* AutoLayoutHelper */,
-				50FA3C821CBCAFAA00B28866 /* Products */,
+				50C6965A1CBF685B00AB7EBF /* AutoLayoutHelper */,
+				50C696591CBF685B00AB7EBF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		50FA3C821CBCAFAA00B28866 /* Products */ = {
+		50C696591CBF685B00AB7EBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50FA3C811CBCAFAA00B28866 /* AutoLayoutHelper.framework */,
+				50C696581CBF685B00AB7EBF /* AutoLayoutHelper.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		50FA3C831CBCAFAA00B28866 /* AutoLayoutHelper */ = {
+		50C6965A1CBF685B00AB7EBF /* AutoLayoutHelper */ = {
 			isa = PBXGroup;
 			children = (
-				50FA3C841CBCAFAA00B28866 /* AutoLayoutHelper.h */,
-				50FA3C861CBCAFAA00B28866 /* Info.plist */,
+				50C6965B1CBF685B00AB7EBF /* AutoLayoutHelper.h */,
+				50C6965D1CBF685B00AB7EBF /* Info.plist */,
 			);
 			path = AutoLayoutHelper;
 			sourceTree = "<group>";
@@ -55,25 +55,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		50FA3C7E1CBCAFAA00B28866 /* Headers */ = {
+		50C696551CBF685B00AB7EBF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50FA3C851CBCAFAA00B28866 /* AutoLayoutHelper.h in Headers */,
+				50C6965C1CBF685B00AB7EBF /* AutoLayoutHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		50FA3C801CBCAFAA00B28866 /* AutoLayoutHelper */ = {
+		50C696571CBF685B00AB7EBF /* AutoLayoutHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50FA3C891CBCAFAA00B28866 /* Build configuration list for PBXNativeTarget "AutoLayoutHelper" */;
+			buildConfigurationList = 50C696601CBF685B00AB7EBF /* Build configuration list for PBXNativeTarget "AutoLayoutHelper" */;
 			buildPhases = (
-				50FA3C7C1CBCAFAA00B28866 /* Sources */,
-				50FA3C7D1CBCAFAA00B28866 /* Frameworks */,
-				50FA3C7E1CBCAFAA00B28866 /* Headers */,
-				50FA3C7F1CBCAFAA00B28866 /* Resources */,
+				50C696531CBF685B00AB7EBF /* Sources */,
+				50C696541CBF685B00AB7EBF /* Frameworks */,
+				50C696551CBF685B00AB7EBF /* Headers */,
+				50C696561CBF685B00AB7EBF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,42 +81,42 @@
 			);
 			name = AutoLayoutHelper;
 			productName = AutoLayoutHelper;
-			productReference = 50FA3C811CBCAFAA00B28866 /* AutoLayoutHelper.framework */;
+			productReference = 50C696581CBF685B00AB7EBF /* AutoLayoutHelper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		50FA3C781CBCAFAA00B28866 /* Project object */ = {
+		50C6964F1CBF685B00AB7EBF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = zysMac;
 				TargetAttributes = {
-					50FA3C801CBCAFAA00B28866 = {
+					50C696571CBF685B00AB7EBF = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = 50FA3C7B1CBCAFAA00B28866 /* Build configuration list for PBXProject "AutoLayoutHelper" */;
+			buildConfigurationList = 50C696521CBF685B00AB7EBF /* Build configuration list for PBXProject "AutoLayoutHelper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 50FA3C771CBCAFAA00B28866;
-			productRefGroup = 50FA3C821CBCAFAA00B28866 /* Products */;
+			mainGroup = 50C6964E1CBF685B00AB7EBF;
+			productRefGroup = 50C696591CBF685B00AB7EBF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50FA3C801CBCAFAA00B28866 /* AutoLayoutHelper */,
+				50C696571CBF685B00AB7EBF /* AutoLayoutHelper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		50FA3C7F1CBCAFAA00B28866 /* Resources */ = {
+		50C696561CBF685B00AB7EBF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,7 +126,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		50FA3C7C1CBCAFAA00B28866 /* Sources */ = {
+		50C696531CBF685B00AB7EBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,7 +136,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		50FA3C871CBCAFAA00B28866 /* Debug */ = {
+		50C6965E1CBF685B00AB7EBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -185,7 +185,7 @@
 			};
 			name = Debug;
 		};
-		50FA3C881CBCAFAA00B28866 /* Release */ = {
+		50C6965F1CBF685B00AB7EBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +227,7 @@
 			};
 			name = Release;
 		};
-		50FA3C8A1CBCAFAA00B28866 /* Debug */ = {
+		50C696611CBF685B00AB7EBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -243,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		50FA3C8B1CBCAFAA00B28866 /* Release */ = {
+		50C696621CBF685B00AB7EBF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -262,24 +262,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		50FA3C7B1CBCAFAA00B28866 /* Build configuration list for PBXProject "AutoLayoutHelper" */ = {
+		50C696521CBF685B00AB7EBF /* Build configuration list for PBXProject "AutoLayoutHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50FA3C871CBCAFAA00B28866 /* Debug */,
-				50FA3C881CBCAFAA00B28866 /* Release */,
+				50C6965E1CBF685B00AB7EBF /* Debug */,
+				50C6965F1CBF685B00AB7EBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50FA3C891CBCAFAA00B28866 /* Build configuration list for PBXNativeTarget "AutoLayoutHelper" */ = {
+		50C696601CBF685B00AB7EBF /* Build configuration list for PBXNativeTarget "AutoLayoutHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50FA3C8A1CBCAFAA00B28866 /* Debug */,
-				50FA3C8B1CBCAFAA00B28866 /* Release */,
+				50C696611CBF685B00AB7EBF /* Debug */,
+				50C696621CBF685B00AB7EBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 50FA3C781CBCAFAA00B28866 /* Project object */;
+	rootObject = 50C6964F1CBF685B00AB7EBF /* Project object */;
 }
