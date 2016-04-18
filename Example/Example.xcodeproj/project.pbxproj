@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50C696641CBF688300AB7EBF /* AutoLayoutHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C696631CBF688300AB7EBF /* AutoLayoutHelper.framework */; };
 		50FA3C661CBCAF3B00B28866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA3C651CBCAF3B00B28866 /* AppDelegate.swift */; };
 		50FA3C681CBCAF3B00B28866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA3C671CBCAF3B00B28866 /* ViewController.swift */; };
 		50FA3C6B1CBCAF3B00B28866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA3C691CBCAF3B00B28866 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50C696631CBF688300AB7EBF /* AutoLayoutHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AutoLayoutHelper.framework; path = "../AutoLayoutHelper/build/Debug-iphoneos/AutoLayoutHelper.framework"; sourceTree = "<group>"; };
 		50FA3C621CBCAF3B00B28866 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FA3C651CBCAF3B00B28866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FA3C671CBCAF3B00B28866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50C696641CBF688300AB7EBF /* AutoLayoutHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		50FA3C591CBCAF3B00B28866 = {
 			isa = PBXGroup;
 			children = (
+				50C696631CBF688300AB7EBF /* AutoLayoutHelper.framework */,
 				50FA3C641CBCAF3B00B28866 /* Example */,
 				50FA3C631CBCAF3B00B28866 /* Products */,
 			);
@@ -288,6 +292,7 @@
 				50FA3C761CBCAF3B00B28866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
